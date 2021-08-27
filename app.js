@@ -1,6 +1,7 @@
 //Require
 const path = require('path');
 const express = require('express');
+const morgan = require('morgan');
 
 const app = express();
 
@@ -14,6 +15,4 @@ app.get('/', (req, res) => {
 });
 
 //Server Up
-app.listen(3000, () => {
-    console.log('Server running');
-})
+app.listen(3000, () =>  console.log('Server running'))
