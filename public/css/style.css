@@ -16,3 +16,28 @@ Descuentos: 16px
 Descripciones: 16px
 
 */
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.icon {
+    font-size: 2em;
+    color: #1259c3;
+}
+
+.footer {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px 30px;;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+.descriptions{
+    margin-top: 0px;
+    font-size: 16px;;
+}
