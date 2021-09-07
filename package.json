@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mercadoLiebre",
   "version": "1.0.0",
   "description": "",
@@ -7,6 +8,12 @@
     "express": "^4.17.1"
   },
   "devDependencies": {},
+=======
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+>>>>>>> e727323271d7c0829c6d4f36ee8fdec49e38823e
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,11 +21,22 @@
     "type": "git",
     "url": "git+https://github.com/francocsanchez/mercadoLiebre.git"
   },
+<<<<<<< HEAD
   "keywords": [],
+=======
+>>>>>>> e727323271d7c0829c6d4f36ee8fdec49e38823e
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/francocsanchez/mercadoLiebre/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/francocsanchez/mercadoLiebre#readme"
+=======
+  "homepage": "https://github.com/francocsanchez/mercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+>>>>>>> e727323271d7c0829c6d4f36ee8fdec49e38823e
 }
