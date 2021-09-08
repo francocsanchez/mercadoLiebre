@@ -23,11 +23,16 @@ Descripciones: 16px
     font-family: 'Roboto';
 }
 
-.main{
-    display: block;
-    width: 90%;
-    margin: auto;
+.main {
+    padding: 0px;
+    margin: 0px;
 }
+
+.main .banner {
+    width: 100%;
+    height: auto;
+}
+
 .main-header {
     background-color: #EAC926;
 }
@@ -67,4 +72,21 @@ Descripciones: 16px
 
 .navbar-right {
     margin-bottom: 15px;
+}
+
+.navbar-left {
+    margin-bottom: 15px;
+}
+
+.main-header .fa-bars {
+    background-color: #03264C;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 10%;
+}
+
+.navbar-hamburger {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
 }
