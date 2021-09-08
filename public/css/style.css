@@ -23,14 +23,43 @@ Descripciones: 16px
     font-family: 'Roboto';
 }
 
+.lima{
+    color: #39b54a;
+}    
+
 .main {
     padding: 0px;
     margin: 0px;
+    background-color: #ebebeb;
 }
 
 .main .banner {
     width: 100%;
     height: auto;
+}
+
+.main .articles img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.main .articles h2 {
+    color: #666;
+    text-align: center;
+}
+
+.main .articles article {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    background-color: #ffffff;
+}
+
+.description-article{
+    border-top: 1px solid #ebebeb;
+    padding: 0px 15px;
 }
 
 .main-header {
