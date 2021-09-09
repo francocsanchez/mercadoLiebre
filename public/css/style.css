@@ -29,9 +29,9 @@ footer {
     margin: 0px;
 }
 
-.lima{
+.lima {
     color: #39b54a;
-}    
+}
 
 .main {
     padding: 0px;
@@ -63,7 +63,7 @@ footer {
     background-color: #ffffff;
 }
 
-.description-article{
+.description-article {
     border-top: 1px solid #ebebeb;
     padding: 0px 15px;
 }
@@ -126,13 +126,13 @@ footer {
     font-size: 18px;
 }
 
-.form-register{
+.form-register {
     width: 90%;
     margin: 10px auto;
     padding: 5px 0px;
 }
 
-.form-control input{
+.form-control input {
     display: block;
     width: 100%;
     margin-bottom: 15px;
@@ -142,23 +142,36 @@ footer {
     border: 1px solid transparent
 }
 
-.radio-perfil{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.check-perfil input{
+.check-perfil input {
     width: auto;
     display: inline-block;
     margin-right: 8px;
 }
 
-.button-line button{
-width: 49%;
-display: inline;
+.radio-perfil {
+    display: flex;
+
 }
 
-.btn-danger{
+.radio-perfil label {
+    display: contents;
+    border: 1px red solid;
+}
+
+.radio-perfil input {
+    text-align: left;
+}
+
+.button-line {
+    margin-bottom: 5px;
+}
+
+.button-line button {
+    width: 49%;
+    display: inline;
+}
+
+.btn-danger {
     padding: 6px 12px;
     border-radius: 4px;
     color: #fff;
@@ -168,7 +181,7 @@ display: inline;
     border: 1px solid transparent;
 }
 
-.btn-success{
+.btn-success {
     padding: 6px 12px;
     border-radius: 4px;
     color: #fff;
