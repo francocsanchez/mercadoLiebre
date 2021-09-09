@@ -150,6 +150,8 @@ footer {
 
 .radio-perfil {
     display: flex;
+    width: 60%;
+    align-items: baseline;
 
 }
 
