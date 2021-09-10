@@ -106,11 +106,11 @@ footer {
 }
 
 .navbar-right {
-    margin-bottom: 15px;
+    display: none;
 }
 
 .navbar-left {
-    margin-bottom: 15px;
+    display: none;
 }
 
 .main-header .fa-bars {
@@ -128,7 +128,7 @@ footer {
 
 .form-register {
     width: 90%;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 5px 0px;
 }
 
@@ -191,4 +191,39 @@ footer {
     border-color: #4cae4c;
     font-weight: 400;
     border: 1px solid transparent;
+}
+
+.btn-primary {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1259c3;
+    border-color: #3261a7;
+    font-weight: 400;
+    border: 1px solid transparent;
+}
+
+.btn-large{
+    width: 100%;
+}
+
+.section-footer p,
+h2 {
+    text-align: center;
+}
+
+.section-footer p {
+    font-size: 12px;
+}
+
+@media (min-width: 461px) {
+    .navbar-right {
+        margin-bottom: 15px;
+        display: contents;
+    }
+
+    .navbar-left {
+        margin-bottom: 15px;
+        display: contents;
+    }
 }
