@@ -29,6 +29,31 @@ footer {
     margin: 0px;
 }
 
+footer p {
+    text-align: center;
+}
+
+.icon-footer {
+    margin-top: 15px;
+}
+
+.icon-footer i {
+    font-size: 32px;
+    color: #1259c3;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.copyright p {
+    text-align: left;
+}
+
 .lima {
     color: #39b54a;
 }
@@ -203,7 +228,7 @@ footer {
     border: 1px solid transparent;
 }
 
-.btn-large{
+.btn-large {
     width: 100%;
 }
 
@@ -225,5 +250,9 @@ h2 {
     .navbar-left {
         margin-bottom: 15px;
         display: contents;
+    }
+
+    .navbar-hamburger {
+        display: none;
     }
 }
