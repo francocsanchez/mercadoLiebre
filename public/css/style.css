@@ -26,7 +26,8 @@ Descripciones: 16px
 
 footer {
     padding: 0px 15px;
-    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 footer p {
@@ -86,6 +87,10 @@ footer p {
     display: block;
     margin: 10px auto;
     background-color: #ffffff;
+}
+
+article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .description-article {
@@ -241,7 +246,33 @@ h2 {
     font-size: 12px;
 }
 
-@media (min-width: 461px) {
+.fa-truck {
+    border: #4cae4c 1px solid;
+    padding: 10px;
+    border-radius: 100%;
+    position: relative;
+    top: -18px;
+    left: 85%;
+    background-color: #fff;
+}
+.price-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-flex p .price{
+    width: 25%;
+}
+
+.price-flex p .lima{
+    width: 70%;
+}
+
+.price-flex p{
+    padding-right: 10px;
+}
+
+@media (min-width: 361px) {
     .navbar-right {
         margin-bottom: 15px;
         display: contents;
