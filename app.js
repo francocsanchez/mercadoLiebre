@@ -23,4 +23,6 @@ app.get('/login', (req, res) => {
 });
 
 //Server Up
-app.listen(3000, () => console.log('Server running'))
+app.listen(process.env.PORT || 3000, function () {
+    console.log('Servidor corriendo en el puerto 3000');
+})
