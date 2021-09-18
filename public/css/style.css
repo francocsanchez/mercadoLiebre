@@ -124,7 +124,7 @@ article {
     text-align: center;
 }
 
-.main-header ul{
+.main-header ul {
     margin-bottom: 10px;
 }
 
@@ -258,21 +258,26 @@ h2 {
     left: 85%;
     background-color: #fff;
 }
-.price-flex{
+
+.price-flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.price-flex p .price{
+.price-flex p .price {
     width: 25%;
 }
 
-.price-flex p .lima{
+.price-flex p .lima {
     width: 70%;
 }
 
-.price-flex p{
+.price-flex p {
     padding-right: 10px;
+}
+
+.main-header-destock{
+    padding: 0px 10px;
 }
 
 @media (min-width: 361px) {
@@ -288,5 +293,26 @@ h2 {
 
     .navbar-hamburger {
         display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .main-header-destock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .main-header-destock img{
+        width: 20%;
+    }
+
+    .main-header-destock input{
+        width: 45%;
+    }
+
+    .main-header-destock .navbar-title{
+        align-items: center;
     }
 }
