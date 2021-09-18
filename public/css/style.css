@@ -60,8 +60,8 @@ footer p {
 }
 
 .main {
-    padding: 0px;
-    margin: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     background-color: #ebebeb;
 }
 
@@ -124,10 +124,13 @@ article {
     text-align: center;
 }
 
+.main-header ul{
+    margin-bottom: 10px;
+}
+
 .main-header ul>li {
-    padding: 5px 0;
-    text-align: center;
-    text-transform: uppercase;
+    padding: 5px 10px;
+    text-align: left;
 }
 
 .main-header ul>li>a {
